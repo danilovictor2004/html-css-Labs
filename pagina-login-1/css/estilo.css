@@ -1,5 +1,9 @@
 @import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
+html, body {
+	height: 100%;
+}
+
 body {
 	background-color: #f4f4f4;
 	background-image: url(../imagens/natureza.jpg);
