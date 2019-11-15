@@ -1,0 +1,65 @@
+@media screen and (max-width: 480px){
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos, .conteudo-contato {
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    nav a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 20px;
+        color: #000000;
+    }
+
+    .lista-beneficios, .imagem-beneficio {
+        width: 100%;
+    }
+
+    .principal p, .itens {
+        padding: 0 20px;
+    }
+
+    .produtos li {
+        width: auto;
+        margin: 10px 35px;
+    }
+
+    .produtos h2 {
+        font-size: 20px;
+    }
+
+    .produto-descricao, .produto-preco {
+        font-size: 16px;
+    }
+
+    form label {
+        margin: 10px 20px;
+    }
+    .input-padrao{
+        width: 75%;
+        margin: 0 20px;
+    }
+
+    fieldset, legend {
+        margin: 10px 20px;
+    }
+
+    .enviar {
+        width: 75%;
+        margin: 0 2em;
+    }
+
+    table {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+}
