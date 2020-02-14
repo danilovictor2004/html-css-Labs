@@ -1,0 +1,222 @@
+/*Geral*/
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.button {
+    display: inline-block;
+    background: #48A3A6;
+    color: #FFF;
+    box-shadow: 2px 2px 0px #000;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/*Cabeçalho*/
+.cabecalho {
+    background: url("../img/destaque.jpeg") no-repeat;
+    background-size: cover;
+    padding: 40px 0px;
+}
+
+.menu-navegacao ul {
+    text-align: center;
+}
+
+.menu-navegacao ul li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.menu-navegacao ul li a{
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.05);
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.menu-navegacao ul li a:hover{
+    background: #48A3A6;
+    color: #FFF;
+}
+
+/*Conteúdo Principal*/
+.conteudo {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.principal h1{
+    font-size: 3em;
+    color: #FFF;
+    text-shadow: 5px 5px 5px #000;
+    margin: 40px 0px 10px 0px;
+}
+
+.principal h2 {
+    font-size: 2.5em;
+    color: #64FF64;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+.inscricao {
+    margin-top: 40px;
+}
+
+.inscricao .button {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 25px 50px;
+}
+
+/*Painel Sobre*/
+.painel-sobre {
+    text-align: center;
+}
+
+.painel-sobre h2, .sobre h3 {
+    margin: 10px 0px;
+}
+
+.painel-sobre h2 {
+    font-size: 2.5em;
+}
+
+.painel-sobre h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.painel-sobre p {
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+/*Painel de Palestrante*/
+.painel-palestrante {
+    background-color: #F17E51;
+    padding: 40px 0px;
+    width: 100%;
+}
+.painel-palestrante div {
+    text-align: center;
+    color: #FFF;
+}
+.painel-palestrante h2 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.painel-palestrante h3 {
+    font-size: 1.5em;
+    margin: 5px 0px;
+}
+
+.palestrantes{
+    text-align: center;
+}
+
+.palestrantes .palestrante{
+    background: #FFF;
+    width: 300px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.palestrante {
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+
+.palestrante figure img{
+    width: 250px;
+    border-radius: 50%;
+    padding: 10px 0px;
+}
+
+.palestrante .bio-palestrante {
+    margin: 10px 0px;
+    padding: 0px 50px;
+    font-weight: bold;
+}
+
+/*Painel de Inscrição*/
+.painel-inscricao {
+    padding: 40px 0px;
+}
+
+.painel-inscricao h2 {
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F17E51;
+}
+
+.painel-inscricao label {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.painel-inscricao input {
+    display: block;
+    box-sizing: border-box;
+    margin: 10px 0px;
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+    box-shadow: 0px 0px 5px 0px #48A3A6;
+}
+
+.realizar-inscricao{
+    width: 285px;
+    margin: 0 auto;
+}
+
+.painel-inscricao .button{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 25px 30px;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+/*Responsivo*/
+@media (min-width: 640px) {
+    .conteudo {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 415px) {
+    .palestrante figure img{
+        width: 200px;
+        border-radius: 50%;
+        padding: 10px 0px;
+    }
+}
