@@ -1,0 +1,53 @@
+@media (max-width: 680px) {
+    /*Menu*/
+    .menu {
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    a.menu-logo {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .menu-nav {
+        float: none;
+        clear: both;
+    }
+    
+    /*intro*/
+    .intro {
+        padding: 60px 0px;
+    }
+
+    /*Sobre*/    
+    .sobre-container {
+        max-width: 300px;
+    }
+
+    .sobre-item {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    /*Produtos*/
+    .produtos-container {
+        max-width: 300px;
+    }
+
+    .produtos-item {
+        margin: 0 auto 20px auto;
+    }
+
+    /*Locais*/
+    .locais {
+        max-width: 300px;
+    }
+
+    .locais-item div, .locais-item img {
+        width: 300px;
+        margin: 0px;
+    }
+
+}
