@@ -1,0 +1,50 @@
+@media (min-width: 740px) and (max-width: 980px) {
+    .container {
+        width: 740px;
+        margin: 0 auto;
+    }
+
+    .filtro {
+        width: 220px;
+    }
+
+    .produtos {
+        width: 420px;
+        margin-left: 10px;
+    }
+
+    .produtos li {
+        width: 200px;
+    }
+}
+
+@media (max-width: 739px){
+    .container {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .filtro {
+        display: none;
+    }
+
+    .produtos {
+        width: 320px;
+        float: none;
+        margin: 0px;
+    }
+
+    .produtos h1 {
+        text-align: center;
+    }
+
+    .produtos li {
+        width: 150px;
+        padding: 0px 10px;
+        margin: 0 auto;
+    }
+
+    .produtos li:nth-child(even) {
+        margin-left: 10px;
+    }
+}
